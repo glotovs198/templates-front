@@ -3,7 +3,7 @@ import { HomePage } from "@/features/home";
 
 const routes: RouteProps[] = [
   {
-    path: "/",
+    path: "/templates-front",
     Component: HomePage,
   },
 ];

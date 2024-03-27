@@ -28,7 +28,14 @@ const navItems: NavItems[] = [
 
 const Navbar = () => {
   return (
-    <Box bg={"white"} w={"100%"} borderRadius={20} pt={"12px"} pb={"12px"}>
+    <Box
+      bg={"white"}
+      w={"100%"}
+      borderRadius={20}
+      pt={"12px"}
+      pb={"12px"}
+      zIndex={100}
+    >
       <Container>
         <Box display={"flex"} alignItems={"center"}>
           <Link to="/">
@@ -40,13 +47,7 @@ const Navbar = () => {
                 <Box display={"flex"} alignItems={"center"} gap={"5px"}>
                   {navItem.text}
                   {navItem.child ? (
-                    <svg
-                      width="16"
-                      height="16"
-                      viewBox="0 0 16 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <path
                         d="M7.99999 8.78065L11.3 5.48065L12.2427 6.42399L7.99999 10.6667L3.75732 6.42399L4.69999 5.48132L7.99999 8.78065Z"
                         fill="black"

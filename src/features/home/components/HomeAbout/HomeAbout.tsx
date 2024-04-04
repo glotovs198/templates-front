@@ -5,7 +5,7 @@ const HomeAbout = () => {
   return (
     <Box pt={50} pb={50}>
       <Container>
-        <Box display={"flex"} gap={191} alignItems={"start"}>
+        <Box display={"flex"} gap={190} alignItems={"start"}>
           <Box flexShrink={0}>
             <DescribeTitle>Почему мы?</DescribeTitle>
           </Box>

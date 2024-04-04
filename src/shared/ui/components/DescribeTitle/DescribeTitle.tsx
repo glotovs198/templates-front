@@ -3,7 +3,12 @@ import { PropsWithChildren } from "react";
 
 const DescribeTitle = ({ children }: PropsWithChildren) => {
   return (
-    <Heading fontWeight={400} fontSize={17} color={"#5E81FF"}>
+    <Heading
+      fontFamily={"TT Commons"}
+      fontWeight={400}
+      fontSize={17}
+      color={"#5E81FF"}
+    >
       {children}
     </Heading>
   );
